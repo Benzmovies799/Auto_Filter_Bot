@@ -42,11 +42,11 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c
 # Admin, Channels & Users Configuration
 # ============================
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '957055438').split()] # Replace with the actual admin ID(s) to add
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001881877723 -1001830080813 -1001900210731 -1001763959518').split()]  # Channel id for auto indexing (make sure bot is admin)
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002436736173 -1002436741447 -1001677602829 -1002031604620 -1002051582732 -1001711815545 -1001596855035 -1002022424627 -1001807603317 -1001918580379 -1002044951861 -1001974850509 -1001979983644').split()]  # Channel id for auto indexing (make sure bot is admin)
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001970548842'))  # Log channel id (make sure bot is admin)
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001970548842'))  # Bin channel id (make sure bot is admin)
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001970548842'))  # Premium logs channel id
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001942699601'))  # Log channel id (make sure bot is admin)
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001942699601'))  # Bin channel id (make sure bot is admin)
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001521536991'))  # Premium logs channel id
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-100').split()] #(make sure bot is admin)
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-100')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-100')  # Request channel id (make sure bot is admin)
@@ -54,7 +54,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')  # Support group lin
 
 # FORCE_SUB 
 auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-100")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
-auth_channels     = environ.get("AUTH_CHANNELS", "-1001830080813 -1001900210731 -1001763959518")# Channels for force sub (make sure bot is admin)
+auth_channels     = environ.get("AUTH_CHANNELS", "-1001830080813")# Channels for force sub (make sure bot is admin)
 
 # ============================
 # Payment Configuration
@@ -90,14 +90,14 @@ LINK_PREVIEW = bool(environ.get('LINK_PREVIEW', False)) # Shows link preview in 
 ABOVE_PREVIEW = bool(environ.get('ABOVE_PREVIEW', True)) # Shows link preview above the text in notification msg if True else below the msg
 TMDB_API_KEY = environ.get('TMDB_API_KEY', '') # preffer to use your own tmdb API Key get it from https://www.themoviedb.org/settings/api
 TMDB_POSTER = bool(environ.get('TMDB_POSTER', False)) # Shows TMDB poster in notification msg
-LANDSCAPE_POSTER = bool(environ.get('LANDSCAPE_POSTER', True)) # Shows landscape poster in notification msg
+LANDSCAPE_POSTER = bool(environ.get('LANDSCAPE_POSTER', False)) # Shows landscape poster in notification msg
 
 # ============================
 # Verification Settings
 # ============================
 IS_VERIFY = is_enabled('IS_VERIFY', True)  # Verification On (True) / Off (False)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001970548842')) #Verification Channel Id 
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001970548842')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001521536991')) #Verification Channel Id 
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001521536991')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtosolvelinks/2")   # Tutorial link for verification
