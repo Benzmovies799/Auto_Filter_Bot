@@ -73,7 +73,7 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://benz:Benz123@cluster0.q70dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # MongoDB URI for the database
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://benz:Benz@cluster0.q70dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # MongoDB URI for the database
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0") # Database name (default: cluster)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Benzmawafiles') # Collection name (default: Benzmawafiles)
 
