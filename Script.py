@@ -225,41 +225,39 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
     CAPTION = """<b><a href="https://t.me/Benzmovies">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/Benzmovies">[ Benzmovies ]</a></b>"""
 
-    
     MOVIE_UPDATE_NOTIFY_TXT = """
 <b><a href="{poster_url}">🎥</a> | <a href="{imdb_url}"> 𝗡𝗲𝘄 {tag} 𝗔𝗱𝗱𝗲𝗱 ✨</a></b>
 
 <blockquote>
-𝙏𝙞𝙩𝙡𝙚 : <code>{filename}</code></blockquote> 
+𝙏𝙞𝙩𝙡𝙚 : <code>{filename}</code>
+</blockquote>
+
 <blockquote>
 𝙂𝙚𝙣𝙧𝙚𝙨 : <b>{genres}</b>
-
 𝙊𝙏𝙏 : <b>{ott}</b>
-
 𝙌𝙪𝙖𝙡𝙞𝙩𝙮 : <b>{quality}</b>
-
 𝘼𝙪𝙙𝙞𝙤 : <b>{language}</b>
-
-𝙍𝙖𝙩𝙞𝙣𝙜 : <b>{rating}</b>  
+𝙍𝙖𝙩𝙞𝙣𝙜 : <b>{rating}</b>
 {episodes}
 </blockquote>
-<blockquote>𝗧𝗵𝗶𝘀 <b>{tag}</b> 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝒃𝒚 𝑩𝒆𝒏𝒛𝒎𝒐𝒗𝒊𝒆𝒔 </blockquote>
+
+<blockquote>𝗧𝗵𝗶𝘀 <b>{tag}</b> 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝒃𝒚 𝑩𝒆𝒏𝒛𝒎𝒐𝒗𝒊𝒆𝒔</blockquote>
 
 🔍 <b>𝗦𝗲𝗮𝗿𝗰𝗵 𝗛𝗲𝗿𝗲 →</b> {search_link}
 
-<blockquote>𝗝𝗢𝗜𝗡 <a href="https://telegram.dog/Benzmovies"> 𝑩𝒆𝒏𝒛𝒎𝒐𝒗𝒊𝒆𝒔 </a> 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 & 𝗦𝗲𝗿𝗶𝗲𝘀 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗖𝗵𝗮𝗻𝗻𝗲𝗹
- </blockquote>
+<blockquote>𝗝𝗢𝗜𝗡 <a href="https://telegram.dog/Benzmovies"> 𝑩𝒆𝒏𝒛𝒎𝒐𝒗𝒊𝒆𝒔 </a> 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 & 𝗦𝗲𝗿𝗶𝗲𝘀</blockquote>
+"""
 
 
     IMDB_TEMPLATE_TXT = """
-<b>🏷 Title</b>: <a href={url}>{title}</a>
+<b>🏷 Title</b>: <a href="{url}">{title}</a>
 🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings> ({rating}/10 )</a>
+📆 Year: <a href="{url}/releaseinfo">{year}</a>
+🌟 Rating: <a href="{url}/ratings">({rating}/10)</a>
 
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-<b>Requested by : {message.from_user.mention}</b>"""
+⏰ Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
+<b>Requested by : {mention}</b>
+"""
 
     LOGO = r"""
     ██████╗░██████╗░███████╗░█████╗░███╗░░░███╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
