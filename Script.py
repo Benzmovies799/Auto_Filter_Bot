@@ -220,22 +220,28 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+<b><a href="{poster_url}">🎥</a> | <a href="{imdb_url}"> 𝗡𝗲𝘄 {tag} 𝗔𝗱𝗱𝗲𝗱 ✨</a></b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
+<blockquote>
+𝙏𝙞𝙩𝙡𝙚 : <code>{filename}</code></blockquote> 
+<blockquote>
+𝙂𝙚𝙣𝙧𝙚𝙨 : <b>{genres}</b>
 
+𝙊𝙏𝙏 : <b>{ott}</b>
 
-🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
+𝙌𝙪𝙖𝙡𝙞𝙩𝙮 : <b>{quality}</b>
+
+𝘼𝙪𝙙𝙞𝙤 : <b>{language}</b>
+
+𝙍𝙖𝙩𝙞𝙣𝙜 : <b>{rating}</b>  
 {episodes}
 </blockquote>
+<blockquote>𝗧𝗵𝗶𝘀 <b>{tag}</b> 𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝒃𝒚 𝑩𝒆𝒏𝒛𝒎𝒐𝒗𝒊𝒆𝒔 </blockquote>
 
+🔍 <b>𝗦𝗲𝗮𝗿𝗰𝗵 𝗛𝗲𝗿𝗲 →</b> {search_link}
 
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
-"""
+<blockquote>𝗝𝗢𝗜𝗡 <a href="https://telegram.dog/Benzmovies"> 𝑩𝒆𝒏𝒛𝒎𝒐𝒗𝒊𝒆𝒔 </a> 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 & 𝗦𝗲𝗿𝗶𝗲𝘀 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗖𝗵𝗮𝗻𝗻𝗲𝗹
+ </blockquote>
 
 
     IMDB_TEMPLATE_TXT = """
