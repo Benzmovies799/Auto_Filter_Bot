@@ -16,22 +16,29 @@ class script(object):
     
     HELP_TXT = """<b>
     
-✨ ʜᴏᴡ ᴛᴏ ʀᴇǫᴜᴇꜱᴛ ᴅʀᴀᴍᴀꜱ & ᴍᴏᴠɪᴇꜱ ✨  
+How to Request Series & Movies ✨  
 
-1️⃣ ꜱᴇᴀʀᴄʜ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ᴏɴ ɢᴏᴏɢʟᴇ.  
-2️⃣ ꜱᴇɴᴅ ᴛʜᴇ ɴᴀᴍᴇ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.  
-3️⃣ ᴜꜱᴇ ᴛʜɪꜱ ꜰᴏʀᴍᴀᴛ:  
+1️⃣ Search the correct name on Google  
+2️⃣ Send the name in the group  
+3️⃣ Use this format 👇  
 
-📌 ꜰᴏʀ ꜱᴇʀɪᴇꜱ:  
-➤ ᴅʀᴀᴍᴀ ɴᴀᴍᴇ + S01 (ꜰᴏʀ ꜱᴇᴀꜱᴏɴ 1, ᴄʜᴀɴɢᴇ ꜰᴏʀ ᴏᴛʜᴇʀꜱ)  
+<blockquote>🎬 For Series: 
+→ Series Name + S01</blockquote><blockquote>Examples:
+• Shaitan S01  
+• Save The Tigers S02  
+• Newsense S01  
+• Jhansi S02</blockquote>
 
-📌 ꜰᴏʀ ʜɪɴᴅɪ ᴅʀᴀᴍᴀꜱ:  
-➤ ᴅʀᴀᴍᴀ ɴᴀᴍᴇ + ʜɪɴᴅɪ  
+<blockquote>🎥 For Movies:  
+→ Movie Name + Year</blockquote><blockquote>Examples:
+• Pushpa 2021  
+• Salaar 2023  
+• Hi Nanna 2023  
+• Devara 2025</blockquote>
 
-📌 ꜰᴏʀ ᴍᴏᴠɪᴇꜱ:  
-➤ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ + ʏᴇᴀʀ (ᴇx: ᴊᴏᴋᴇʀ 2019)  
+<blockquote>Follow these steps correctly to get your request faster 🚀</blockquote>
 
-🚀 ꜰᴏʟʟᴏᴡ ᴛʜᴇꜱᴇ ꜱᴛᴇᴘꜱ!
+<blockquote>𝗕𝗼𝘁 𝗰𝗿𝗲𝗮𝘁𝗲𝗱 𝗯𝘆 <a href="https://telegram.dog/Benzmovies">𝑩𝒆𝒏𝒛𝒎𝒐𝒗𝒊𝒆𝒔</a> 💫</blockquote>
 </b>"""
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
